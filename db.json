@@ -1,0 +1,327 @@
+{
+  "seller": [
+    {
+      "name": "Tonmoy Bagri",
+      "email": "toba3185@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "Atanu Sarkar",
+      "password": "atanu123",
+      "email": "atanu@gmail.com",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "Name": "HP 15s",
+      "Price": "60000",
+      "Color": "grey",
+      "Category": "Laptop",
+      "Description": "HP 15s, AMD Ryzen 5 5500U, 15.6 inch(39.6cm) FHD Micro-Edge Anti-Glare Laptop (8GB RAM/512 GB SSD/AMD Radeon Graphics/Win 11/MSO 21/Alexa/Dual Speakers/1.69 Kgs/Natural Silver) 15s-eq2223AU",
+      "Image": "https://m.media-amazon.com/images/I/7151VAWe3RL._SX522_.jpg",
+      "id": 1
+    },
+    {
+      "Name": "RedMi Note 11 Pro Plus 5G",
+      "Price": "25000",
+      "Color": "Blue",
+      "Category": "Mobile",
+      "Description": "Redmi Note 11 Pro + 5G (Mirage Blue, 6GB RAM, 128GB Storage) 67W Turbo Charge |120Hz Super AMOLED Display |Additional Exchange Offers | Charger Included|",
+      "Image": "https://m.media-amazon.com/images/I/71UDT0TuNDL._SX679_.jpg",
+      "id": 2
+    },
+    {
+      "Name": "Rieka Women Fit And Flare Light Blue Dress",
+      "Price": "490",
+      "Color": "Blue",
+      "Category": "Clothing",
+      "Description": "This Beautiful Dress Is A Perfect Fusion Of Casual Comfort And Trendy And A Must-have Item For Every Wardrobe. The Premium Quality Of This Soft Fabric Is Suitable For All ...",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDXhxjeXSNsX7HDQSyJ2uaKLCY5RKtZVors4qxDKPICZCm4SJ-BRw-QFiCB6Q3SdLpmaNfKPzsvPWn-wUIKTd7COx8we5sGBYzaWjSqEc&usqp=CAE",
+      "id": 3
+    },
+    {
+      "Name": "I Phone 14 pro max",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "17.00 cm (6.7-inch) Super Retina XDR display featuring Always-On and ProMotion\nDynamic Island, a magical new way to interact with iPhone\n48MP Main camera for up to 4x greater resolution\nCinematic mode now in 4K Dolby Vision up to 30 fps\nAction mode for smooth, steady, handheld videos\nAll-day battery life and up to 29 hours of video playback\nVital safety technology — Crash Detection can detect a severe car crash and call for help\nA16 Bionic, the ultimate smartphone chip. Superfast 5G cellular\nIndustry-leading durability features with Ceramic Shield and water resistance\niOS 16 offers even more ways to personalize, communicate and share",
+      "Image": "https://m.media-amazon.com/images/I/610pghkO81L._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "Name": "Nike Mens Air Max Impact 4 Running Shoe",
+      "Price": "6,541",
+      "Color": "Black",
+      "Category": "Shoe",
+      "Description": "Product Dimensions ‏ : ‎ 36 x 26 x 16 cm; 400 Grams\nDate First Available ‏ : ‎ 21 February 2023\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD\nASIN ‏ : ‎ B0BNJK7PB1\nItem model number ‏ : ‎ DM1124-006\nCountry of Origin ‏ : ‎ Vietnam\nDepartment ‏ : ‎ Mens\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD, NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nPacker ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nImporter ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nItem Weight ‏ : ‎ 400 g\nItem Dimensions LxWxH ‏ : ‎ 36 x 26 x 16 Centimeters\nNet Quantity ‏ : ‎ 1 Count\nGeneric Name ‏ : ‎ Running Shoe",
+      "Image": "https://m.media-amazon.com/images/I/71JqI+GoiXL._UY695_.jpg",
+      "id": 5
+    },
+    {
+      "Name": "OnePlus Nord Buds 2 True Wireless ",
+      "Price": "2,999",
+      "Color": "white",
+      "Category": "Earbuds",
+      "Description": "OnePlus Nord Buds 2 True Wireless in Ear Earbuds with Mic, Upto 25dB ANC 12.4mm Dynamic Titanium Drivers, Playback:Upto 36hr case, 4-Mic Design, IP55 Rating, Fast Charging [Lightning White]",
+      "Image": "https://m.media-amazon.com/images/I/31TUX1AK87L._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 6
+    },
+    {
+      "Name": "Manyavar Blue Blended Viscose Full Sleeve Kurta Set ",
+      "Price": "5000",
+      "Color": "Black",
+      "Category": "kurta",
+      "Description": "Product Dimensions ‏ : ‎ 33 x 23 x 4 cm; 600 Grams\nDate First Available ‏ : ‎ 17 January 2023\nManufacturer ‏ : ‎ Vedant Fashions Private Ltd 4th Floor, Paridhan Garment Park, 19 Canal South Road, Kolkata-700015\nASIN ‏ : ‎ B0BSGNL1C5\nItem model number ‏ : ‎ SDES679-306-S\nCountry of Origin ‏ : ‎ India\nDepartment ‏ : ‎ Men\nManufacturer ‏ : ‎ Vedant Fashions Private Ltd 4th Floor, Paridhan Garment Park, 19 Canal South Road, Kolkata-700015, Vedant Fashions Limited. Paridhan Garment Park, SDF Building, Block A, Kolkata 700015.\nPacker ‏ : ‎ Vedant Fashions Limited. Srijan Industrial Logistics Park, Part-C, Block-A, Dhulagarh, HOWRAH - 711302\nItem Weight ‏ : ‎ 600 g\nItem Dimensions LxWxH ‏ : ‎ 33 x 23 x 4 Centimeters\nNet Quantity ‏ : ‎ 1.00 count\nIncluded Components ‏ : ‎ Kurta\nGeneric Name ‏ : ‎ Kurta Churidar Set",
+      "Image": "https://m.media-amazon.com/images/I/61Lq3aPr3-L._UY741_.jpg",
+      "id": 7
+    },
+    {
+      "Name": "BeatXP Vega ",
+      "Price": "2000",
+      "Color": "silver",
+      "Category": "Watch",
+      "Description": "1.43\" AMOLED 466 * 466px Display One-Tap BT 5.2 Calling AI Voice Assistant Smartwatch (Electric Black)",
+      "Image": "https://m.media-amazon.com/images/I/91NoOjOQOdL._SX522_.jpg",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Tonmoy Bagri",
+      "password": "tonmoy",
+      "email": "tonmoy@user.com",
+      "id": 1
+    },
+    {
+      "name": "atanu",
+      "password": "asdfgt",
+      "email": "ata@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "prakriti singh",
+      "password": "9038907796",
+      "email": "prakritisingh066@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "sarayu mahato",
+      "password": "sarayumahato",
+      "email": "sarayu@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "rukaiya khatoon",
+      "password": "9038907796p",
+      "email": "rukaiyaa@gmail.com",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "Name": "I Phone 14",
+      "Price": "50000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "it's an apple product",
+      "Image": "https://img-new.cgtrader.com/items/2161746/914d1ededd/iphone-11-pro-max-midnight-green-3d-model-obj-mtl-fbx-c4d-blend-dae.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 1
+    },
+    {
+      "Name": "HP Laptop",
+      "Price": "50000",
+      "Color": "Grey",
+      "Category": "Laptop",
+      "Description": "It's a HP product",
+      "Image": "https://i5.walmartimages.com/asr/2cd78337-859c-496f-ac5e-da9e9c82c367_1.377888a36a784b1535f4c01d93cfd5a4.jpeg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 2
+    },
+    {
+      "Name": "HP Laptop",
+      "Price": "50000",
+      "Color": "Grey",
+      "Category": "Laptop",
+      "Description": "It's a HP product",
+      "Image": "https://i5.walmartimages.com/asr/2cd78337-859c-496f-ac5e-da9e9c82c367_1.377888a36a784b1535f4c01d93cfd5a4.jpeg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "Name": "Rieka Women Fit And Flare Light Blue Dress",
+      "Price": "490",
+      "Color": "Blue",
+      "Category": "Clothing",
+      "Description": "This Beautiful Dress Is A Perfect Fusion Of Casual Comfort And Trendy And A Must-have Item For Every Wardrobe. The Premium Quality Of This Soft Fabric Is Suitable For All ...",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDXhxjeXSNsX7HDQSyJ2uaKLCY5RKtZVors4qxDKPICZCm4SJ-BRw-QFiCB6Q3SdLpmaNfKPzsvPWn-wUIKTd7COx8we5sGBYzaWjSqEc&usqp=CAE",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "Name": "Rieka Women Fit And Flare Light Blue Dress",
+      "Price": "490",
+      "Color": "Blue",
+      "Category": "Clothing",
+      "Description": "This Beautiful Dress Is A Perfect Fusion Of Casual Comfort And Trendy And A Must-have Item For Every Wardrobe. The Premium Quality Of This Soft Fabric Is Suitable For All ...",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDXhxjeXSNsX7HDQSyJ2uaKLCY5RKtZVors4qxDKPICZCm4SJ-BRw-QFiCB6Q3SdLpmaNfKPzsvPWn-wUIKTd7COx8we5sGBYzaWjSqEc&usqp=CAE",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 9
+    },
+    {
+      "Name": "HP Laptop",
+      "Price": "60000",
+      "Color": "grey",
+      "Category": "Electronics",
+      "Description": "New generation Hp Laptop",
+      "Image": "https://in-files.apjonlinecdn.com/landingpages/content-pages/visid-rich-content/hp-pavilion-x360-14/images/w100_desktop_laptop_v1.png",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 11
+    },
+    {
+      "Name": "Rieka Women Fit And Flare Light Blue Dress",
+      "Price": "490",
+      "Color": "Blue",
+      "Category": "Clothing",
+      "Description": "This Beautiful Dress Is A Perfect Fusion Of Casual Comfort And Trendy And A Must-have Item For Every Wardrobe. The Premium Quality Of This Soft Fabric Is Suitable For All ...",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDXhxjeXSNsX7HDQSyJ2uaKLCY5RKtZVors4qxDKPICZCm4SJ-BRw-QFiCB6Q3SdLpmaNfKPzsvPWn-wUIKTd7COx8we5sGBYzaWjSqEc&usqp=CAE",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 12
+    },
+    {
+      "Name": "Rieka Women Fit And Flare Light Blue Dress",
+      "Price": "490",
+      "Color": "Blue",
+      "Category": "Clothing",
+      "Description": "This Beautiful Dress Is A Perfect Fusion Of Casual Comfort And Trendy And A Must-have Item For Every Wardrobe. The Premium Quality Of This Soft Fabric Is Suitable For All ...",
+      "Image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDXhxjeXSNsX7HDQSyJ2uaKLCY5RKtZVors4qxDKPICZCm4SJ-BRw-QFiCB6Q3SdLpmaNfKPzsvPWn-wUIKTd7COx8we5sGBYzaWjSqEc&usqp=CAE",
+      "quantity": 1,
+      "userId": 4,
+      "productId": 3,
+      "id": 13
+    },
+    {
+      "Name": "Nike Mens Air Max Impact 4 Running Shoe",
+      "Price": "6,541",
+      "Color": "Black",
+      "Category": "Shoe",
+      "Description": "Product Dimensions ‏ : ‎ 36 x 26 x 16 cm; 400 Grams\nDate First Available ‏ : ‎ 21 February 2023\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD\nASIN ‏ : ‎ B0BNJK7PB1\nItem model number ‏ : ‎ DM1124-006\nCountry of Origin ‏ : ‎ Vietnam\nDepartment ‏ : ‎ Mens\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD, NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nPacker ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nImporter ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nItem Weight ‏ : ‎ 400 g\nItem Dimensions LxWxH ‏ : ‎ 36 x 26 x 16 Centimeters\nNet Quantity ‏ : ‎ 1 Count\nGeneric Name ‏ : ‎ Running Shoe",
+      "Image": "https://m.media-amazon.com/images/I/71JqI+GoiXL._UY695_.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": null,
+      "id": 14
+    },
+    {
+      "Name": "Nike Mens Air Max Impact 4 Running Shoe",
+      "Price": "6,541",
+      "Color": "Black",
+      "Category": "Shoe",
+      "Description": "Product Dimensions ‏ : ‎ 36 x 26 x 16 cm; 400 Grams\nDate First Available ‏ : ‎ 21 February 2023\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD\nASIN ‏ : ‎ B0BNJK7PB1\nItem model number ‏ : ‎ DM1124-006\nCountry of Origin ‏ : ‎ Vietnam\nDepartment ‏ : ‎ Mens\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD, NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nPacker ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nImporter ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nItem Weight ‏ : ‎ 400 g\nItem Dimensions LxWxH ‏ : ‎ 36 x 26 x 16 Centimeters\nNet Quantity ‏ : ‎ 1 Count\nGeneric Name ‏ : ‎ Running Shoe",
+      "Image": "https://m.media-amazon.com/images/I/71JqI+GoiXL._UY695_.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": null,
+      "id": 15
+    },
+    {
+      "Name": "Nike Mens Air Max Impact 4 Running Shoe",
+      "Price": "6,541",
+      "Color": "Black",
+      "Category": "Shoe",
+      "Description": "Product Dimensions ‏ : ‎ 36 x 26 x 16 cm; 400 Grams\nDate First Available ‏ : ‎ 21 February 2023\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD\nASIN ‏ : ‎ B0BNJK7PB1\nItem model number ‏ : ‎ DM1124-006\nCountry of Origin ‏ : ‎ Vietnam\nDepartment ‏ : ‎ Mens\nManufacturer ‏ : ‎ NIKE INDIA PVT LTD, NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nPacker ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nImporter ‏ : ‎ NIKE INDIA PVT LTD,GROUND & 1ST FLOOR OLYMPIA BUILDING,NO 66/1 BAGMANE TECH PARK,CV RAMAN NAGAR BANGALORE-560093 INDIA\nItem Weight ‏ : ‎ 400 g\nItem Dimensions LxWxH ‏ : ‎ 36 x 26 x 16 Centimeters\nNet Quantity ‏ : ‎ 1 Count\nGeneric Name ‏ : ‎ Running Shoe",
+      "Image": "https://m.media-amazon.com/images/I/71JqI+GoiXL._UY695_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 5,
+      "id": 17
+    },
+    {
+      "Name": "HP 15s",
+      "Price": "60000",
+      "Color": "grey",
+      "Category": "Laptop",
+      "Description": "HP 15s, AMD Ryzen 5 5500U, 15.6 inch(39.6cm) FHD Micro-Edge Anti-Glare Laptop (8GB RAM/512 GB SSD/AMD Radeon Graphics/Win 11/MSO 21/Alexa/Dual Speakers/1.69 Kgs/Natural Silver) 15s-eq2223AU",
+      "Image": "https://m.media-amazon.com/images/I/7151VAWe3RL._SX522_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 18
+    },
+    {
+      "Name": "Manyavar Blue Blended Viscose Full Sleeve Kurta Set ",
+      "Price": "5000",
+      "Color": "Black",
+      "Category": "kurta",
+      "Description": "Product Dimensions ‏ : ‎ 33 x 23 x 4 cm; 600 Grams\nDate First Available ‏ : ‎ 17 January 2023\nManufacturer ‏ : ‎ Vedant Fashions Private Ltd 4th Floor, Paridhan Garment Park, 19 Canal South Road, Kolkata-700015\nASIN ‏ : ‎ B0BSGNL1C5\nItem model number ‏ : ‎ SDES679-306-S\nCountry of Origin ‏ : ‎ India\nDepartment ‏ : ‎ Men\nManufacturer ‏ : ‎ Vedant Fashions Private Ltd 4th Floor, Paridhan Garment Park, 19 Canal South Road, Kolkata-700015, Vedant Fashions Limited. Paridhan Garment Park, SDF Building, Block A, Kolkata 700015.\nPacker ‏ : ‎ Vedant Fashions Limited. Srijan Industrial Logistics Park, Part-C, Block-A, Dhulagarh, HOWRAH - 711302\nItem Weight ‏ : ‎ 600 g\nItem Dimensions LxWxH ‏ : ‎ 33 x 23 x 4 Centimeters\nNet Quantity ‏ : ‎ 1.00 count\nIncluded Components ‏ : ‎ Kurta\nGeneric Name ‏ : ‎ Kurta Churidar Set",
+      "Image": "https://m.media-amazon.com/images/I/61Lq3aPr3-L._UY741_.jpg",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 19
+    }
+  ],
+  "orders": [
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 960040,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "dfvzdf",
+      "email": "zffdf",
+      "address": "fsdfsdf",
+      "contact": "sdfsdfsd",
+      "totalPrice": 12040,
+      "userId": 4,
+      "id": 2
+    },
+    {
+      "name": "atanu",
+      "email": "atanu@gmail.com",
+      "address": "das",
+      "contact": "23123",
+      "totalPrice": 530,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "name": "TONMOY",
+      "email": "toba3185@gmail.com",
+      "address": "J-345/E,Paharpur Road,Garden ReachKolkata-700024",
+      "contact": "08777493185",
+      "totalPrice": 60040,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "atanu",
+      "email": "atanu@gmail.com",
+      "address": "samali",
+      "contact": "9073409441",
+      "totalPrice": 530,
+      "userId": 4,
+      "id": 5
+    }
+  ]
+}
