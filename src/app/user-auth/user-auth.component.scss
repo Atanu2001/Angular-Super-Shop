@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color:#3498DB;
+    text-shadow: 1.7px 1.7px 1.7px grey;
+    margin-left: 50px;
+    
+}
+
+.auth-toggle-link{
+    cursor: pointer;
+    padding: 10px;
+    font-size: small;
+}
+
+.user-auth{
+    margin-bottom: 100px;
+}
+
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    padding: 5px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.common-form{ 
+    padding: 20px;
+    padding-top: 20px;
+   
+}
+h1{
+    margin-bottom: 10px;
+    padding-left: 0.5%;
+}
+
+.error-messege{
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+}

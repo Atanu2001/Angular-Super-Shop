@@ -1,0 +1,52 @@
+<!-- for the name of the header -->
+
+<nav class="nav">
+    <div><h1><a routerLink="/">Super Shop</a></h1></div>
+    <div *ngIf="menuType !== 'seller'" class="nav-search">
+        <!-- for adding search bar  -->
+        <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for products">
+        <button (click)="submitSearch(searchInput.value)">Search</button>
+        <ul class="suggested-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a (mousedown)="redirectToDetails(item.id)">{{item.Name}}</a> 
+                <!-- when we have blur event[(blur)="hideSearch()"],then the click event and the links donot work properly      -->
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType" class="adjust">
+       
+        <ul  *ngSwitchCase="'default'">
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="user-auth">Login</a></li>
+            <!--<li><a routerLink="seller-auth">Seller</a></li>-->
+            <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+            <!-- <li><a routerLink="/seller-auth">Log-Out</a></li> -->
+    
+        </ul>
+        <ul   *ngSwitchCase="'user'">
+            <li><a routerLink="">Home</a></li>
+           <!--  <li><a routerLink="seller-auth">Seller</a></li>-->
+            <li><a routerLink="user-auth">{{userName|uppercase}}</a></li>
+            <!-- in the upper statement we are using {{userName}} to make the user name visible when the user logged in the profile.. -->
+            <li><a routerLink="my-orders">My Order</a></li>
+            <li><a (click)="userLogout()">Logout</a></li>
+            <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+            <!-- the above line ([routerLink]="cartItems>0?'cart-page':null") is to make the cart link visible only if 
+                there is any item in the cart -->
+           
+    
+        </ul>
+        <ul  *ngSwitchCase="'seller'" >
+            <!-- here we are creating a link where seller can edit all the things
+            in angular we use routerLink in place of href='#' for create a link and route through the links   -->
+            <li><a routerLink="seller-add-product">Add Product</a></li>
+            <li><a routerLink="seller-home">Product List</a></li>
+            <li><a href="javascript:void(0);">{{sellerName | uppercase}}</a></li>
+            <!--<li><a routerLink="user-auth">User</a></li>-->
+            <li class="logout"><a (click)="logout()">Logout </a></li>
+            
+            <!-- <li><a routerLink="/seller-auth">Log-Out</a></li> -->
+    
+        </ul>
+    </div>
+</nav>

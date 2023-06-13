@@ -1,0 +1,39 @@
+p{
+    padding-left: 3%;
+}
+
+table{
+    
+    color: var(--bs-primary);
+    border-collapse: collapse;
+    
+    
+} 
+
+table td,table th{
+    border: 1px solid black;
+    padding: 15px;
+   
+    //padding-left: 15px;
+    
+    //text-shadow: 5px 5px 5px 5px blue;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.product-list h1{
+    font-family: poppins;
+   
+    color: var(--bs-orange);
+  
+}
+.delete{color: red;}
+
+
+.adjust-update-link{
+    color: var(--bs-green);
+    margin-left: 15px ;
+}

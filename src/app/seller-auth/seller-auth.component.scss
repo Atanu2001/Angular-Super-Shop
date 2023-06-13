@@ -1,0 +1,48 @@
+
+
+
+.seller-auth{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.seller-auth h1{
+    color:var(--bs-primary);
+    
+}
+
+
+.common-form{ 
+     padding: 20px;
+    text-align: center;
+}
+
+
+.auth-toggle-link{
+    margin-top: 20px;
+    color: #0437F2;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #fcf9f9;
+}
+
+.error-messege{
+    color:red;
+   
+}
+
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    padding: 5px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

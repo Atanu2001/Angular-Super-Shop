@@ -1,0 +1,38 @@
+<div class="user-auth">
+    <div *ngIf="!showLogin" class="signup">
+    <h1>User Sign-Up</h1>
+    <form #userSignup="ngForm" (ngSubmit)="signUp(userSignup.value)" class="common-form">
+        <input class="form-input" type="text" ngModel name="name" placeholder="Enter Username(Name)" #name="ngModel" required>
+        <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Please Enter the Valid Username</span></p>
+        <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password" #password="ngModel" required minlength="5" maxlength="14">
+        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please Enter the Valid Password</span></p>
+        <input class="form-input" type="text" ngModel name="email" placeholder="Enter Email" #email="ngModel" required email>
+        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter the Valid Email</span></p>
+        <button [disabled]="userSignup.invalid" class="form-button">Sign-Up</button>
+        <a class="auth-toggle-link" (click)="openLogin()"> Already have an Account? Click to Log-In</a>
+    </form>
+    </div>
+    
+        <div *ngIf="showLogin" class="Login">
+            <h1>User Log-In</h1>
+            <p class="error-messege">{{authError}}</p>
+            <form #userLogin="ngForm" (ngSubmit)="Login(userLogin.value)" class="common-form">
+                <input class="form-input" type="text" ngModel name="email" placeholder="Enter Email" #email="ngModel" required email>
+                <!-- above the "#email="ngModel" required" is used to give the validation to email 
+                if we want to give particular email validation then we should use "email"-->
+                <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter the Valid Email</span></p>
+                   <!-- in the above this to check the validity of email, if the email is blank it will return true that means 
+                   it is invalid and if the email is filled then it will return false that means it is valid -->
+                <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password" #password="ngModel" required minlength="5" maxlength="14">
+                <!-- if we want to give particular password validation suppose password's minimum length or maximum length then 
+                    we should use "minlength and maxlength"-->
+                <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please Enter the Valid Password</span></p>
+                <button [disabled]="userLogin.invalid" class="form-button">Log-In</button>
+                <!-- if we want to disable the button beacuse of the invalidation then we just put 
+                    [disabled]="form name(for example userLogin).invalid" -->
+                <a class="auth-toggle-link"(click)="openSignUp()"> Don't have an Account? Click to Sign-up</a>
+            </form>
+        </div>
+    
+        <!-- </div> -->
+</div>
